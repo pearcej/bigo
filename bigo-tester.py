@@ -104,19 +104,19 @@ def main():
     strn=input("Please enter n: " )
     n=int(strn)
 
-    # while n>0:
-    #     print ("for n = "+strn+":")
-    #     print ("\tlooponconstant("+strn+") = "+str(looponconstant(n)))
-    #     print ("\tlooponconstant2("+strn+") = "+str(looponconstant2(n)))
-    #     print ("\tloopwn("+strn+") = "+str(loopwn(n)))
-    #     print ("\tloopmanycount("+strn+") = "+str(loopmanycount(n)))
-    #     print ("\tsequential("+strn+") = "+str(sequential(n)))
-    #     print ("\tnestedwconstant("+strn+") = "+str(nestedwconstant(n)))
-    #     print ("\ttwonested("+strn+") = "+str(twonested(n)))
-    #     print ("\tthreenested("+strn+") = "+str(threenested(n)))
-    #     print ("\thalving("+strn+") = "+str(halving(n)))
-    #
-    #     strn=input("Please enter another n (entering -1 to stop): " )
-    #     n=int(strn)
+    while n>0:
+        print ("for n = "+strn+":")
+        print ("\tlooponconstant("+strn+") = "+str(looponconstant(n)))
+        print ("\tlooponconstant2("+strn+") = "+str(looponconstant2(n)))
+        print ("\tloopwn("+strn+") = "+str(loopwn(n)))
+        print ("\tloopmanycount("+strn+") = "+str(loopmanycount(n)))
+        print ("\tsequential("+strn+") = "+str(sequential(n)))
+        print ("\tnestedwconstant("+strn+") = "+str(nestedwconstant(n)))
+        print ("\ttwonested("+strn+") = "+str(twonested(n)))
+        print ("\tthreenested("+strn+") = "+str(threenested(n)))
+        print ("\thalving("+strn+") = "+str(halving(n)))
+
+        strn=input("Please enter another n (entering -1 to stop): " )
+        n=int(strn)
 
 main()
