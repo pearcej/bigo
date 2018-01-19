@@ -54,7 +54,7 @@ def sequential(n):
     return count
 
 def nestedwconstant(n):
-    ''' twonested demonstrates O(n**2) behavior
+    ''' twonested demonstrates O(n) behavior
     pre: n is a positive integer
     post: returns an integer count of the number of iterations'''
 
