@@ -87,6 +87,17 @@ def threenested(n):
                  count=count+1   #we are interested in how often this line executes
     return count
 
+def powern(n):
+    ''' powern demonstrates O(2**n)) behavior
+    pre: n is a positive integer
+    post: returns an integer count of the number of iterations'''
+
+    count = 0
+    for i in range(2**n):
+        count=count+1   #we are interested in how often this line executes
+    return count
+
+
 def halving(n):
     ''' twonested demonstrates O(log(n)) behavior
     pre: n is a positive integer
@@ -114,6 +125,7 @@ def main():
         print ("\tnestedwconstant("+strn+") = "+str(nestedwconstant(n)))
         print ("\ttwonested("+strn+") = "+str(twonested(n)))
         print ("\tthreenested("+strn+") = "+str(threenested(n)))
+        print ("\tpowern("+strn+") = "+str(powern(n)))
         print ("\thalving("+strn+") = "+str(halving(n)))
 
         strn=input("Please enter another n (entering -1 to stop): " )
